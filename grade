@@ -1,0 +1,17 @@
+marks=int(input("Enter the marks of a Student: "))
+if(marks>=91 and marks<=100):
+    print("A1 grade")
+elif(marks>=81 and marks<=90):
+    print("A2 grade")
+elif(marks>=71 and marks<=80):
+    print("B1 grade")
+elif(marks>=61 and marks<=70):
+    print("B2 grade")
+elif(marks>=51 and marks<=60):
+    print("C1 grade")
+elif(marks>=41 and marks<=50):
+    print("C2 grade")
+elif(marks>=33 and marks<=40):
+    print("D grade")
+else:
+    print("Candidate Fail")
