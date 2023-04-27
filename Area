@@ -1,0 +1,14 @@
+#Area of Triangle
+base=int(input("Enter the base of thre triangle: "))
+height=int(input("Enter the height of the triangle: "))
+t1=0.5*base*height
+print("The area of the rectangle is:",t1)
+#Area of Square
+side=int(input("Enter the length of the side: "))
+s1=side*side
+print("Area of square: ",s1)
+#Area of rectangle
+len=int(input("Enter the length of the rectangle: "))
+bredth=int(input("Enter the breadth of the rectangle: "))
+r1=len*bredth
+print("Area of the Rectangle: ",r1)
